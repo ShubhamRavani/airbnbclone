@@ -1,0 +1,132 @@
+.head1 {
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1%;
+}
+
+.cardslider {
+    width: 10%;
+    margin-top: 20px;
+}
+
+.rightcard1 {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.leftcard1 {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.images {
+    margin-left: 2%;
+    position: relative;
+    overflow: hidden;
+}
+
+.image1 {
+    min-width: 600px;
+    height: 380px;
+    border-radius: 4%;
+    margin-left: 1%;
+    border: 1px solid white;
+    background: url('https://a0.muscache.com/im/pictures/e35bb307-05f4-48a4-bdc5-3b2198bb9451.jpg?im_w=720');
+}
+
+.image2 {
+    min-width: 600px;
+    height: 380px;
+    border-radius: 4%;
+    margin-left: 1%;
+    border: 1px solid white;
+    background: url("https://a0.muscache.com/im/pictures/58819d01-2a71-441d-b3bc-baae0cd64da1.jpg?im_w=720");
+}
+
+.image3 {
+    min-width: 600px;
+    height: 380px;
+    border-radius: 4%;
+    margin-left: 1%;
+    border: 1px solid white;
+    background: url("https://a0.muscache.com/im/pictures/bcbd20bb-1654-4ea2-a86c-2cf25666f3b6.jpg?im_w=720");
+}
+
+
+.imagecards {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.imagecard {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: large;
+}
+
+.imagdiv1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 2%;
+    margin-top: 37%;
+    text-align: center;
+    border-radius: 10%;
+    background-color: white;
+    text-decoration-color: black;
+    opacity: 1.5;
+    width: 16%;
+}
+
+.imagdiv2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 2%;
+    margin-top: 37%;
+    text-align: center;
+    border-radius: 10%;
+    background-color: white;
+    text-decoration-color: black;
+    opacity: 1.5;
+    width: 16%;
+}
+
+.imagdiv3 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 2%;
+    margin-top: 37%;
+    text-align: center;
+    border-radius: 10%;
+    background-color: white;
+    text-decoration-color: black;
+    opacity: 1.5;
+    width: 18%;
+}
+
+h5{
+    /* padding-top: 1%; */
+    color: white;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+.cardtext{
+    margin-top: -3%;
+    margin-left: 5%;
+    text-align: justify;
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

@@ -1,0 +1,80 @@
+.header-div-card-section {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+/*
+h1 {
+    margin-top: 5px;
+    text-align: justify;
+    color: black;
+    font-weight: 900;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+} */
+
+.buttons-div-card-section {
+    display: flex;
+
+}
+
+.left-arrow-div {
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.right-arrow-div {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 50%;
+}
+
+.left-arrow-div:hover {
+    cursor: pointer;
+    background-color: #dbdbdb;
+    transition: 0.3s;
+}
+
+.right-arrow-div:hover {
+    cursor: pointer;
+    background-color: #dbdbdb;
+    transition: 0.3s;
+}
+
+.many-cards-scroll-div {
+    margin-top: 5px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding-left: 50px;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    margin-bottom: 50px;
+}
+
+.many-cards-scroll-div::-webkit-scrollbar {
+    display: none;
+}
+
+.single-card-div1:hover {
+    cursor: pointer;
+    background-color: #ebebeb;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.single-card-div {
+    display: inline-block;
+    width: 200px;
+    margin-inline-end: 15px;
+    height: 35vh;
+    background-color: #eeeeee;
+    border-radius: 17px;
+    cursor: pointer;
+}
